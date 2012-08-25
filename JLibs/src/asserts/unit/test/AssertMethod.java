@@ -13,7 +13,8 @@ public interface AssertMethod {
 
 public String xx = "";
     
-    public void  AssertMethods();
+private String xx = "";
+    public void  AssertMethod();
     
     public void setAssertList(String[][] arrayItems);
     
