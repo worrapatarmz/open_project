@@ -22,7 +22,6 @@ public class AssessmentUnit implements AssertMethod{
         
         int countRow = arrayItems.length;
         this.AssertItems = new String[countRow][5];
-
     }
 
     @Override
