@@ -10,17 +10,12 @@ package asserts.unit.test;
  * @author user
  */
 public interface AssertMethod {
-
-public int xx = "";
     
-
-    public void  AssertMethods();
-
-private int xx = "";
+    public String[][] AssertItems = null;
+    
     public void  AssertMethod();
-
     
-    public void setAssertList(String[][] arrayItems);
+    public boolean setAssertList(String[][] arrayItems);
     
     public boolean startAssessment();
     
