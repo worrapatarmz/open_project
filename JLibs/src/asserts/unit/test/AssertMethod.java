@@ -10,6 +10,8 @@ package asserts.unit.test;
  * @author user
  */
 public interface AssertMethod {
+
+public String xx = "";
     
     public void  AssertMethods();
     
