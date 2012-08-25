@@ -13,7 +13,7 @@ public interface AssertMethod {
     
     public void  AssertMethod();
     
-    public boolean setAssertList(String[][] arrayItems);
+    public void setAssertList(String[][] arrayItems);
     
     public boolean startAssessment();
     

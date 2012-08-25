@@ -18,12 +18,11 @@ public class AssessmentUnit implements AssertMethod{
     }
     
     @Override
-    public boolean setAssertList(String[][] arrayItems){
+    public void setAssertList(String[][] arrayItems){
         
         int countRow = arrayItems.length;
         this.AssertItems = new String[countRow][5];
-        
-        return true;
+
     }
 
     @Override
