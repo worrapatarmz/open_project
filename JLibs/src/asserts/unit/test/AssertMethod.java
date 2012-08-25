@@ -11,7 +11,7 @@ package asserts.unit.test;
  */
 public interface AssertMethod {
     
-private String xx = "";
+private int xx = "";
     public void  AssertMethod();
     
     public void setAssertList(String[][] arrayItems);
