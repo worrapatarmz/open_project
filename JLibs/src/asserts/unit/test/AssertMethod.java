@@ -1,3 +1,5 @@
+package asserts.unit.test;
+
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
@@ -9,10 +11,12 @@
  */
 public interface AssertMethod {
     
-    public String AssertItems = null;
+    public String[][] AssertItems = null;
     
     public void  AssertMethod();
     
-    public boolean setAssertList(String[][] itemName);
+    public boolean setAssertList(String[][] arrayItems);
+    
+    public boolean startAssessment();
     
 }
